@@ -1,0 +1,437 @@
+#wrapper{
+display: grid;
+grid-template-columns: 3fr 3fr 3fr;
+
+
+
+}
+
+.hide{
+    display: block;
+}
+
+.hidenot{
+    display: none;
+}
+
+
+body{
+    font-family: 'Staatliches', cursive;
+    margin-top: 50px;
+    overflow-y : scroll;
+    background: linear-gradient(90deg, #000000 0%, rgb(58, 58, 58) 50%, #000000 100%);
+   
+}
+
+h1{
+  font-size: 5rem;
+  width: fit-content;
+    text-align: center;
+    border-radius: 25px;
+    padding: 25px;
+    margin: auto auto 20px auto;
+   color: yellow;
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+  
+}
+
+
+.leftarea{
+    display: grid;
+}
+
+.parts
+{
+
+    filter: drop-shadow(2.5px 2.5px 5px rgb(249, 253, 0));
+   width: 250px;
+  float: left;
+font-size: 25px;
+padding: 30px;
+margin: auto auto auto auto;
+
+
+
+background: white;
+
+border: solid yellow 5px ;
+border-radius: 25px;
+
+
+}
+
+
+
+.input1
+{
+    animation: none 2s forwards;
+
+}
+
+@keyframes dance{
+
+
+
+
+0%{
+
+transform: translateX(0px);
+
+
+
+}
+
+25%{
+
+    transform: translateX(20px);
+
+  
+    
+    }
+
+50%{
+
+
+    transform: translateX(-20px);
+
+  
+
+
+}
+100%{
+
+    transform: translateX(0px);
+   
+    filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+    border: solid rgb(255, 0, 0) 5px ;   
+
+}
+
+
+}
+
+
+@keyframes red{
+
+
+
+
+    0%{
+    
+        filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+        border: solid rgb(255, 0, 0) 5px ; 
+    
+    
+    
+    }
+    
+    25%{
+    
+        filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+        border: solid rgb(255, 0, 0) 5px ; 
+    
+      
+        
+        }
+    
+    50%{
+        filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+        border: solid rgb(255, 0, 0) 5px ; 
+    
+    }
+    100%{
+   
+       
+        filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+        border: solid rgb(255, 0, 0) 5px ;      
+    }
+    
+    }
+
+
+@keyframes shake{
+
+
+
+
+    0%{
+    
+    transform: translateX(0px);
+    
+    filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+    border: solid rgb(255, 0, 0) 5px ;  
+    
+    }
+    
+    25%{
+    
+        transform: translateX(20px);
+        filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+        border: solid rgb(255, 0, 0) 5px ;  
+      
+        
+        }
+    
+    50%{
+        
+        transform: translateX(-20px);
+    
+        filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+        border: solid rgb(255, 0, 0) 5px ;  
+    
+    
+    }
+    100%{
+    
+        transform: translateX(0px);
+        filter: drop-shadow(2.5px 2.5px 5px rgb(253, 0, 0));
+    border: solid rgb(255, 0, 0) 5px ;  
+   
+    
+    }
+
+
+}
+
+.rightparts
+{
+    
+width: 400px;
+ 
+font-size: 25px;
+padding: 15px;
+margin: auto auto auto auto;
+
+border-radius: 25px;
+
+
+}
+
+.parts3
+{
+font-size: 25px;
+margin-left: auto;
+margin-right: auto;
+border: solid black 5px ;
+
+}
+
+.desc{
+
+    text-align: center;
+    border: solid yellow 5px ;
+    border-radius: 25px;
+    background: white;
+    font-size: 3rem;
+    padding: 5px;
+}
+
+#descr{
+
+font-size: 3rem;
+filter: drop-shadow(2px 2px 2px black);
+color: rgb(250, 162, 0);
+text-shadow: 2px 2px 2px rgb(0, 0, 0);
+text-align: center;
+
+border-radius: 25px;;
+width: fit-content;
+margin: 30px auto auto auto;
+padding: 10px;
+
+animation: hover 4s infinite;
+}
+
+@keyframes hover{
+
+0%{
+transform: translateY(0px);
+}
+50%{
+    transform: translateY(10px);
+}
+
+100%{
+    transform: translateY(0px);
+}
+
+}
+
+#descr p{
+    color: green;
+}
+
+.parts4
+{
+    width: 500px;
+display: none;
+
+padding: 15px;
+margin: 50px auto 40px auto;
+text-align: center;
+border: solid yellow 5px ;
+filter: drop-shadow(2.5px 2.5px 5px yellow);
+border-radius: 25px;
+background: white;
+animation: none 1s forwards;
+
+}
+
+@keyframes flyin{
+
+0%{
+
+    transform: translateY(+100px);
+
+}
+
+100%{
+
+    filter: drop-shadow(2.5px 2.5px 5px rgb(0, 253, 76));
+    border: solid rgb(0, 253, 76) 5px ;  
+    transform: translateX(0px);
+}
+
+}
+
+@keyframes flyout{
+
+    0%{
+    
+        transform: translateX(0px);
+    
+    }
+    
+    100%{
+    
+        transform: translateX(-100px);
+    }
+
+}
+@keyframes error{
+    0%{
+    
+      
+        
+        }
+        
+        100%{      
+            filter: drop-shadow(2.5px 2.5px 5px rgb(0, 253, 76));
+            border: solid rgb(0, 253, 76) 5px ;      
+        }
+
+}
+
+@keyframes back{
+    0%{
+    
+      
+        
+        }
+        
+        100%{      
+            filter: drop-shadow(2.5px 2.5px 5px yellow);
+            border: solid yellow 5px ;      
+        }
+
+}
+
+.input3
+{
+border: none;
+}
+
+
+
+#textbox
+{
+
+
+height: auto;
+margin: auto auto auto auto;
+font-family: 'Staatliches', cursive;
+font-size: 1rem;
+font-weight: normal;
+
+
+}
+
+#samuelpic{
+
+height: 500px;
+width: 500px;
+border: solid yellow 5px;
+filter: drop-shadow(2.5px 2.5px 5px rgb(253, 228, 0));
+border-radius: 25px;
+
+}
+
+
+@media only screen and (max-width: 1080px) {
+    
+    #wrapper{
+        
+        display: flex;
+        flex-direction: column;
+       
+  }
+
+  .hidenot{
+      display: block;
+      
+  }
+
+
+  h1{
+      margin-top: 10px;
+    font-size: 50px;
+    width: 250px;
+  }
+
+
+  #samuelpic{
+
+    height: 250px;
+    width: 250px;
+  }
+
+  .part4{
+      width: 250px;
+  }
+  .output{
+      width: 250px;
+  }
+
+  #textbox{
+      width: 250px;
+      padding: 5px;
+  }
+
+  .h1{
+      width: 100px;
+      font-size: 50px;
+  }
+  .parts{
+
+    margin: auto auto 20px auto;
+  }
+
+  .rightparts{
+      margin: auto auto 20px auto;
+  }
+
+  .hide{
+      display: none;
+  }
+}
+
+
+
+/*
+       |D
+      /|\
+     / | \
+    /  |  \
+   /___|___\
+  <=========> ==========
+   \_______/  ||SAMUEL|| */
