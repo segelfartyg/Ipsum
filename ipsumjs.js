@@ -74,7 +74,7 @@ else
             var border = document.getElementById("samuelpic")
 
 
-            border.src="ipsumsource/samuel111.png";
+            border.src="samuel111.png";
             
             parts4[0].style.display = "block";
             parts4[0].style.animation = "error 1s forwards";
@@ -176,7 +176,7 @@ function HoverEffect()
     if(!paragraphchosen)
     {
     var border = document.getElementById("samuelpic")
-    border.src="ipsumsource/samuelnot.png";
+    border.src="samuelnot.png";
     }
 }
 
@@ -188,7 +188,7 @@ function DeHoverEffect()
     if(!paragraphchosen)
     {
     var border = document.getElementById("samuelpic")
-    border.src="ipsumsource/samueloil.png";
+    border.src="samueloil.png";
     }
 }
 
