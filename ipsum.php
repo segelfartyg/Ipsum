@@ -7,50 +7,29 @@
         <title>Ipsum - swaren.se</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="ipsumsource/ipsumcss.css">
+        <link rel="stylesheet" href="ipsumcss.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-
-
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
     </head>
     <body>
         
         <h1>SAMUEL IPSUM</h1>
-
-
         <div id="wrapper">
-
-
-
-            
-        <div class="leftarea">
-
-
+         
+       <div class="leftarea">
             <div class="parts input1">
 
                 <label for="paragraph1">Number of paragraphs:</label>
                 <input type="number" id="paragraph1"> 
-            </div>
-
-           
-            
-
-
-            
+        </div>   
         </div>
            
+          <div class="parts3 input3 reverse">
 
-            <div class="parts3 input3 reverse">
-
-            
-                <img id="samuelpic" src="ipsumsource/samueloil.png" onclick="OnClickFunction()" onmouseover="HoverEffect()" onmouseout="DeHoverEffect()">
+           
+                <img id="samuelpic" src="samueloil.png" onclick="OnClickFunction()" onmouseover="HoverEffect()" onmouseout="DeHoverEffect()">
                 
             </div>
     
@@ -119,9 +98,9 @@
 
 
 
-        <script src="ipsumsource/nouns.js"></script>
-        <script src="ipsumsource/verbs.js"></script>
-        <script src="ipsumsource/ipsumjs.js"></script>
+        <script src="nouns.js"></script>
+        <script src="verbs.js"></script>
+        <script src="ipsumjs.js"></script>
         
     </body>
 
